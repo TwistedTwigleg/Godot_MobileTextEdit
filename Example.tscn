@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Custom_TextEdit/Custom_TextEdit.tscn" type="PackedScene" id=1]
+
+[node name="Example" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Custom_TextEdit" parent="." instance=ExtResource( 1 )]
